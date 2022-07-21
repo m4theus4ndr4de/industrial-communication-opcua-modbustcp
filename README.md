@@ -11,5 +11,5 @@ This repository contains OPC UA and Modbus TCP clients and servers in Python
 </p>
 <h2>client_OPCUA_server_ModbusTCP_gateway.py</h2> 
 <p>
-  This file is a simple gateway to work as an interface between OPC UA servers and Modbus TCP clients. The data from OPC UA servers can be read by this OPC UA client and   this data will be written inside a Modbus TCP server. Finally, a Modbus TCP slient can read this data from the Modbus TCP server. This way, the data in an OPCUA server   can be acessed by a Modbus TCP client.
+  This file is a simple gateway to work as an interface between OPC UA servers and Modbus TCP clients. The data from OPC UA servers can be read by this OPC UA client and   this data will be written inside a Modbus TCP server. Finally, a Modbus TCP client can read this data from the Modbus TCP server. This way, the data in an OPCUA server   can be acessed by a Modbus TCP client.
 </p>
