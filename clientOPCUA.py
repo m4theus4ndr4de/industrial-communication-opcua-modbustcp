@@ -1,6 +1,5 @@
 from opcua import Client
 from time import sleep
-import threading
 
 class OPCUA_Client():
 
@@ -39,4 +38,4 @@ class OPCUA_Client():
 
 opcua_client = OPCUA_Client("opc.tcp://127.0.0.1:4840")
 
-opcua_client_thread = threading.Thread(target=opcua_client.run, args=()).start()
+opcua_client.run()

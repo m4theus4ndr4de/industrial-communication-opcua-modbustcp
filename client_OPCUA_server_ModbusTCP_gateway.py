@@ -1,7 +1,6 @@
 from opcua import Client
 from pyModbusTCP.server import ModbusServer
 from time import sleep
-import threading
 
 # class created using a OPC UA client and a Modbus TCP server to act as an interface between a Modbus TCP client and a OPC UA server
 class OPCUA_Client_ModbusTCP_Server():
@@ -73,5 +72,3 @@ class OPCUA_Client_ModbusTCP_Server():
 OPCUA_ModbusTCP = OPCUA_Client_ModbusTCP_Server("opc.tcp://127.0.0.1:4840", "127.0.0.1", 502)
 
 OPCUA_ModbusTCP.run()
-
-#OPCUA_ModbusTCP_thread = threading.Thread(target=OPCUA_ModbusTCP.run, args=()).start()

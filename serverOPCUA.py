@@ -1,6 +1,5 @@
 from opcua import Server
 from time import sleep
-import threading
 import random
 
 class OPCUA_Server():
@@ -53,4 +52,4 @@ class OPCUA_Server():
 
 opcua_server = OPCUA_Server("opc.tcp://127.0.0.1:4840")
 
-opcua_server_thread = threading.Thread(target=opcua_server.run, args=()).start()
+opcua_server.run()
