@@ -1,5 +1,5 @@
 # opcua-modbustcp
-OPC UA and Modbus TCP Clients and Servers in Python
+This repository contains OPC UA and Modbus TCP clients and servers in Python
 
 <h2>serverOPCUA.py</h2> 
 <p>
